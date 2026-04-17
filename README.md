@@ -15,4 +15,4 @@ This project documents the build of a SOC-focused homelab aligned with GSEC trai
 🎯 Goal
 Simulate a real-world SOC environment with detection and response capabilities.
 
-<img width="710" height="871" alt="network_topology_week1 drawio" src="https://github.com/user-attachments/assets/6c818b0b-475d-43b6-84b0-f3e78ef9ece9" />
+<img width="720" height="871" alt="network_topology_week1 drawio" src="https://github.com/user-attachments/assets/e0021411-a627-4ccf-8b2e-f1508e18cbbe" />
