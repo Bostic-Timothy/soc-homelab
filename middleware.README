@@ -1,0 +1,28 @@
+# SOC AI Middleware
+
+Python middleware for enriching Wazuh alerts with AI-assisted triage.
+
+## Overview
+
+This project provides a middleware layer between Wazuh alerts and downstream alert handling. It extracts relevant fields from a security alert, sanitizes sensitive values, submits a controlled summary for AI-assisted triage, and returns a structured decision output.
+
+## Features
+
+- Parses alert data from JSON
+- Reduces alert payloads to relevant triage fields
+- Sanitizes sensitive values before outbound use
+- Queries OpenAI for alert classification
+- Returns severity and recommended action
+- Keeps secrets out of source code through environment variables
+
+## Security Notes
+
+- Do not hardcode API keys
+- Do not commit real alert samples
+- Do not commit internal IP addresses, hostnames, usernames, or webhook URLs
+- Use `.env` locally and keep it out of Git
+
+## Usage
+
+```bash
+python custom_discord.py sample_alert.json
