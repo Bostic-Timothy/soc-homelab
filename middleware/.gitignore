@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+*.log
+sample_alert.json
+alerts.json
+debug_output.txt
